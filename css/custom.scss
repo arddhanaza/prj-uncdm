@@ -1,0 +1,63 @@
+$color-successs: #08BD80;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.primary {
+  background-color: $color-successs;
+}
+
+.btn-custom {
+  border: 0 !important;
+  font-family: 'Roboto';
+}
+
+a {
+  color: $color-successs;
+}
+
+.section-header {
+  background-image: url("../assets/undraw_Bus_stop_8ib0.svg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right;
+
+  #header-left {
+    #divDown {
+      button {
+        margin-top: 20%;
+      }
+
+      p {
+        margin-top: 5%;
+      }
+
+      span {
+        margin-top: 15%;
+      }
+    }
+  }
+}
+
+#img-cover {
+  height: 100%;
+}
+
+section {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+.card {
+  border-radius: 5px !important;
+}
+
+.card-main-feature {
+  border: none;
+  background-color: #fcfcfc;
+}
