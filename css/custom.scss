@@ -1,11 +1,18 @@
-$color-successs: #08BD80;
+$color-successs: #4383ff;
+
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #3C4852;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
+}
+
+.sub-title {
+  font-size: 22pt;
+  color: #9AAFBF !important;
 }
 
 .primary {
@@ -25,7 +32,7 @@ a {
   background-image: url("../assets/undraw_Bus_stop_8ib0.svg");
   background-repeat: no-repeat;
   background-size: 70%;
-  background-position: right;
+  background-position: right top;
 
   #header-left {
     #divDown {
@@ -60,4 +67,12 @@ section {
 .card-main-feature {
   border: none;
   background-color: #fcfcfc;
+}
+
+.pop-goals {
+  span {
+    a {
+      margin-left: 2%;
+    }
+  }
 }

@@ -1,59 +1,66 @@
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #3C4852;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sub-title {
+  font-size: 22pt;
+  color: #9AAFBF !important;
 }
 
 .primary {
-    background-color: #08BD80;
+  background-color: #4383ff;
 }
 
 .btn-custom {
-    border: 0 !important;
-    font-family: "Roboto";
+  border: 0 !important;
+  font-family: "Roboto";
 }
 
 a {
-    color: #08BD80;
+  color: #4383ff;
 }
 
 .section-header {
-    background-image: url("../assets/undraw_Bus_stop_8ib0.svg");
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: right;
+  background-image: url("../assets/undraw_Bus_stop_8ib0.svg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right top;
 }
-
 .section-header #header-left #divDown button {
-    margin-top: 20%;
+  margin-top: 20%;
 }
-
 .section-header #header-left #divDown p {
-    margin-top: 5%;
+  margin-top: 5%;
 }
-
 .section-header #header-left #divDown span {
-    margin-top: 15%;
+  margin-top: 15%;
 }
 
 #img-cover {
-    height: 100%;
+  height: 100%;
 }
 
 section {
-    margin-top: 15%;
-    margin-bottom: 10%;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 
 .card {
-    border-radius: 5px !important;
+  border-radius: 5px !important;
 }
 
 .card-main-feature {
-    border: none;
-    background-color: #fcfcfc;
+  border: none;
+  background-color: #fcfcfc;
+}
+
+.pop-goals span a {
+  margin-left: 2%;
 }
 
 /*# sourceMappingURL=custom.css.map */
