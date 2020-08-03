@@ -4,6 +4,7 @@ $color-successs: #4383ff;
 body {
   font-family: 'Roboto', sans-serif;
   color: #3C4852;
+  background-color: #fcfcfc;
 }
 
 h1, h2, h3, h4, h5 {
@@ -19,9 +20,28 @@ h1, h2, h3, h4, h5 {
   background-color: $color-successs;
 }
 
+.img-feature {
+  max-width: 100%;
+}
+
+.imgsecbanner {
+  display: flex;
+  text-align: center !important;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.ar-down {
+  color: #9AAFBF;
+}
+
 .btn-custom {
   border: 0 !important;
   font-family: 'Roboto';
+}
+
+.footer {
+  background-color: white;
 }
 
 a {
