@@ -21,11 +21,14 @@ h1, h2, h3, h4, h5 {
   max-width: 100%;
 }
 
-.imgsecbanner {
+.img-sec-banner {
   display: flex;
   text-align: center !important;
   overflow: hidden;
   justify-content: center;
+}
+.img-sec-banner img {
+  max-height: 100%;
 }
 
 .ar-down {
@@ -43,6 +46,10 @@ h1, h2, h3, h4, h5 {
 
 a {
   color: #4383ff;
+}
+
+#btn-section-number {
+  margin-bottom: 5%;
 }
 
 .section-header {
@@ -81,6 +88,21 @@ section {
 
 .pop-goals span a {
   margin-left: 2%;
+}
+
+@media (max-width: 480px) {
+  .img-responsive {
+    display: none;
+  }
+
+  .section-header {
+    background-image: none;
+  }
+}
+@media (max-width: 760px) {
+  .img-responsive {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
